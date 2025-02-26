@@ -1,3 +1,4 @@
+// Arthur Kato e Gabriel Lima
 import { Component } from '@angular/core';
 
 @Component({
