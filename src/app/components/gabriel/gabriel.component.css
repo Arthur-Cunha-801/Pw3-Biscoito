@@ -1,0 +1,46 @@
+.perfil-card {
+    width: 430px;
+    margin: 40px auto;
+    padding: 20px;
+    border-color: rgb(255, 0, 0);
+    background-color: rgba(207, 207, 207, 0.767);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .foto {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  mat-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(121, 1, 1);
+  }
+  
+  
+  mat-card-subtitle {
+    font-size: 1.1rem;
+    color: rgb(121, 1, 1);
+  }
+  
+  
+  mat-card-content p {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+
+  .perfil-card:hover .foto 
+{
+  transform: rotate(3deg) scale(1.05);
+}
+
+
+.perfil-card:hover 
+{
+  transform: scale(1.03);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+}

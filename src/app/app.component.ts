@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { ImagemComponent } from "./components/imagem/imagem.component";
-import { FrasesComponent } from "./components/frases/frases.component";
+import { ArthurComponent } from "./components/arthur/arthur.component";
+import { GabrielComponent } from "./components/gabriel/gabriel.component";
 
 
 @Component({
   selector: 'app-root',
-  imports: [ImagemComponent, FrasesComponent],
+  imports: [ArthurComponent, GabrielComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

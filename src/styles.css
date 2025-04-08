@@ -1,0 +1,14 @@
+/* zera estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%; 
+    background-color: #121212;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+  }
+  
